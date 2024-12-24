@@ -6,7 +6,7 @@ import { ArrowRight } from '@/public/Icons/Icons'
 
 function Hero() {
   return (
-    <div className='w-full h-screen bg-gradient-to-r from-[#CC2F2A] via-[#CC2F2A] to-[#F07939] flex items-center'>
+    <div className='w-full h-screen bg-gradient-to-r from-[#CC2F2A] via-[#CC2F2A] to-[#F07939] flex items-center text-white'>
         <div className='flex justify-between max-w-6xl mx-auto px-4 -translate-y-12'>
            <div className='w-[60%] py-8 flex flex-col gap-4'>
            <h1 className='font-extrabold text-[4rem] leading-none'>
