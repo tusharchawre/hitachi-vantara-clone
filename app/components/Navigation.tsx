@@ -4,7 +4,7 @@ import {DropDownMenu} from './DropDownMenu'
 
 export function Navigation() {
   return (
-    <div className='w-full h-28 flex items-center fixed top-0 left-0'>
+    <div className='w-full h-28 flex items-center fixed top-0 left-0 z-50' >
 
 <div className='w-full max-w-6xl mx-auto flex items-center'>
     <div className='absolute top-4 bg-[#CC2F2A] px-2'>

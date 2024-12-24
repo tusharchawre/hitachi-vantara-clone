@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
 import { ArrowRight } from '@/public/Icons/Icons'
+import Features from './Features'
 
 
 function Hero() {
@@ -27,8 +28,6 @@ function Hero() {
             src="/energy-star-storage-sustainability-hero_herohomepage.webp" alt="" />
            </div>
         </div>
-
-        
     </div>
   )
 }
