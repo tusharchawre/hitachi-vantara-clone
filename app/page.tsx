@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './components/Hero'
 import { Navigation } from './components/Navigation'
 import Features from './components/Features'
+import { BrandShowcase } from './components/BrandShowcase'
 
 function page() {
   return (
@@ -9,6 +10,7 @@ function page() {
       <Navigation />
       <Hero />
       <Features />
+      <BrandShowcase  />
     </div>
   )
 }
