@@ -49,12 +49,11 @@ export function Navigation() {
 
           <DropDownMenu className={`${
           isScrolled ? 'bg-white text-black' : 'bg-transparent text-white'
-
-        }`}/>
+        } md:flex hidden`}/>
         </div>
 
         <div className="m-2">
-          <Button className={`font-bold tracking-tighter px-8 py-3 ${
+          <Button className={`font-bold tracking-tighter px-8 py-3 xl:block hidden ${
             isScrolled ? 'bg-black text-white' : 'bg-white text-black'
           }`}>
             Contact Sales

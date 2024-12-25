@@ -3,7 +3,7 @@ import { Card } from './Card'
 
 export const CardCaseLight = () => {
   return (
-    <div className='w-full h-screen flex items-center justify-center text-black flex-col'>
+    <div className='w-full h-fit py-8 flex items-center justify-center text-black flex-col'>
       <div className='pt-12'>
       <p className='text-center'>News, opinions & events</p>
       <h1 className='text-[3rem] leading-none font-bold mt-1 mb-4'>
@@ -12,7 +12,7 @@ export const CardCaseLight = () => {
       </div>
       
 
-      <div className='w-full h-full max-w-6xl flex items-center justify-between'>
+      <div className='w-full h-full max-w-6xl flex items-center justify-between flex-col md:flex-row gap-8'>
         <Card 
         src='/Card1.webp'
         blogDate='November 19, 2024'

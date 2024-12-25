@@ -5,7 +5,7 @@ import Button from './Button'
 export function Footer() {
   return (
     <div className='w-full h-fit'>
-      <div className='flex gap-2 md:gap-4 justify-around py-8'>
+      <div className='flex gap-2 md:gap-4 justify-around py-8 flex-wrap'>
       <div className='flex flex-col gap-2'>
         <p className='font-bold'>Company</p>
         <p>About Hitachi Vantara</p>

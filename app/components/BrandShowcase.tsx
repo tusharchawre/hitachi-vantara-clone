@@ -27,7 +27,7 @@ export const BrandShowcase = () => {
 
       <motion.div
         style={{ opacity, scale }}
-        className="w-full mx-auto max-w-8xl h-full absolute"
+        className="w-full mx-auto max-w-8xl h-full absolute hidden md:block"
       >
         <motion.img
           src="/Brands/BrandLogo1.webp"

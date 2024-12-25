@@ -14,7 +14,7 @@ function Features() {
             case "Hybrid Cloud & IaaS":
                 return (
                     <>
-                    <div className='w-[60%] px-24 flex items-center'>
+                    <div className='md:w-[60%] px-24 flex items-center'>
                         <div className='h-full my-auto'>
                         <h1
                         className='text-[3rem] leading-none font-bold mt-8 mb-4'
@@ -32,7 +32,7 @@ function Features() {
                 transition={{duration: 0.5, type: "spring" , bounce:0}}
                 layoutId='Image'
                 style={{bottom:0}}
-                className='absolute right-0 bottom-0 rounded-br-3xl'
+                className='absolute right-0 bottom-0 rounded-br-3xl hidden md:block'
                 src="/clear-the-data-chaos_tabsimage.webp" alt="clear-data-chaos" />
 
                     </div>
@@ -41,7 +41,7 @@ function Features() {
             case "Data Resilience & Compliance":
                 return (
                     <>
-                    <div className='w-[60%] px-24 flex items-center'>
+                    <div className='md:w-[60%] px-24 flex items-center'>
                         <div className='h-full my-auto'>
                         <h1
                         className='text-[3rem] leading-none font-bold mt-8 mb-4'
@@ -59,7 +59,7 @@ function Features() {
                 transition={{duration: 0.5, type: "spring" , bounce:0}}
                 layoutId='Image'
                 style={{bottom:0}}
-                className='absolute right-0 bottom-0 rounded-br-3xl'
+                className='absolute right-0 bottom-0 rounded-br-3xl hidden md:block'
                 src="/cyber-resilience-resources-global-file-systems-rectangular_tabsimage.webp" alt="clear-data-chaos" />
 
                     </div>
@@ -68,7 +68,7 @@ function Features() {
             case "AI & Data App Management":
                 return (
                     <>
-                    <div className='w-[60%] px-24 flex items-center'>
+                    <div className='md:w-[60%] px-24 flex items-center'>
                         <div className='h-full my-auto'>
                         <h1
                         className='text-[3rem] leading-none font-bold mt-8 mb-4'
@@ -86,7 +86,7 @@ function Features() {
                 transition={{duration: 0.5, type: "spring" , bounce:0}}
                 layoutId='Image'
                 style={{bottom:0}}
-                className='absolute right-0 bottom-0 rounded-br-3xl'
+                className='absolute right-0 bottom-0 rounded-br-3xl hidden md:block'
                 src="/panel2-ai-data-app-manage-tab3_tabsimage.webp" alt="clear-data-chaos" />
 
                     </div>
@@ -95,7 +95,7 @@ function Features() {
             case "Green IT & Sustainability":
                 return (
                     <>
-                    <div className='w-[60%] px-24 flex items-center'>
+                    <div className='md:w-[60%] px-24 flex items-center'>
                         <div className='h-full my-auto'>
                         <h1
                         className='text-[3rem] leading-none font-bold mt-8 mb-4'
@@ -113,7 +113,7 @@ function Features() {
                 transition={{duration: 0.5, type: "spring" , bounce:0}}
                 layoutId='Image'
                 style={{bottom:0}}
-                className='absolute right-0 bottom-0 rounded-br-3xl'
+                className='absolute right-0 bottom-0 rounded-br-3xl hidden md:block'
                 src="/leveragesustainablestorage-2880x1398_tabsimage.webp" alt="clear-data-chaos" />
 
                     </div>
@@ -133,7 +133,7 @@ function Features() {
 
 
   return (
-    <div className='w-full max-w-[76rem] h-[500px] mx-auto rounded-3xl bottom-[50%] bg-[#EEF1F5] text-black -translate-y-[30%] py-4 flex items-center justify-around flex-col shadow-2xl'>
+    <div className='w-full max-w-[76rem] md:h-[500px] h-[700px] mx-auto rounded-3xl bottom-[50%] bg-[#EEF1F5] text-black -translate-y-[30%] py-4 flex items-center justify-around flex-col shadow-2xl '>
 
             <ul className='flex items-center'>
                 {tabs.map((tab)=>(
