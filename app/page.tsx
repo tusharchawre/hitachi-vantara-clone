@@ -6,6 +6,8 @@ import { BrandShowcase } from './components/BrandShowcase'
 import { CardCaseDark } from './components/CardCase-dark'
 import { CardCaseLight } from './components/CardCase-light'
 import { Ebook } from './components/e-book'
+import { Footer } from './components/Footer'
+import { Partnership } from './components/partnership'
 
 function page() {
   return (
@@ -17,6 +19,8 @@ function page() {
       <Ebook />
       <CardCaseLight />
       <CardCaseDark />
+      <Partnership />
+      <Footer />
 
     </div>
   )

@@ -54,7 +54,7 @@ export function Navigation() {
         </div>
 
         <div className="m-2">
-          <Button className={`bg-white text-black font-bold tracking-tighter px-8 py-3 ${
+          <Button className={`font-bold tracking-tighter px-8 py-3 ${
             isScrolled ? 'bg-black text-white' : 'bg-white text-black'
           }`}>
             Contact Sales

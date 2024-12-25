@@ -5,6 +5,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Hitachi Vantara | Inovation Through Data Infrastructure",
   description: "The Data Foundation for Innovation",
+  icons: {
+    icon: '/favicon.ico',
+  },
+
   
 };
 
