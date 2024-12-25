@@ -21,7 +21,7 @@ function Features() {
                         </h1>
                         <p>Get ultimate data clarity in hybrid cloud. Harmonize all your block, file and object data with just one simple platform.</p>
                         <Button className=' border-s-red-600 border-e-red-400 mt-8 bg-transparent border-red-500 text-black trasition-all duration-150 ease-in-out font-bold'>
-                What's VSP One?
+                Whats VSP One?
                 <ArrowRight />
             </Button>
             </div>
