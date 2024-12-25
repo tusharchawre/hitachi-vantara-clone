@@ -2,7 +2,6 @@
 import  Button  from './Button'
 import { ArrowRight } from '@/public/Icons/Icons'
 import { AnimatePresence, motion } from 'motion/react'
-import Image from 'next/image'
 import React, { useMemo, useState } from 'react'
 
 function Features() {
