@@ -14,22 +14,26 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Button } from "@/components/ui/button"
 
-export function DropDownMenu() {
+interface DropDownMenuProps {
+  className?: string
+}
+
+export function DropDownMenu({ className }: DropDownMenuProps) {
   return (
-    <header className="sticky top-0 z-50 text-white hover:text-white/80">
-      <div className="container flex items-center">
+    <header className="sticky top-0 z-50  hover:text-white/80">
+      <div className={"container flex items-center" + `${className}`}>
         <NavigationMenu>
           <NavigationMenuList className="">
             <NavigationMenuItem>
               <Link href="#" legacyBehavior passHref>
-                <NavigationMenuLink className={`bg-transparent hover:bg-white/10 text-white`}>
+                <NavigationMenuLink className={`bg-transparent hover:bg-white/10 ${className}`}>
                   Why Hitachi Vantara
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent hover:bg-white/10 text-white">Products</NavigationMenuTrigger>
+              <NavigationMenuTrigger className={`bg-transparent hover:bg-white/10 ${className}`}>Products</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid gap-3 p-6 w-[400px]">
                   <li className="row-span-3">
@@ -52,7 +56,7 @@ export function DropDownMenu() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent hover:bg-white/10 text-white">Solutions</NavigationMenuTrigger>
+              <NavigationMenuTrigger className={`bg-transparent hover:bg-white/10 ${className}`}>Solutions</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4">
                   <li className="row-span-3">
@@ -63,7 +67,7 @@ export function DropDownMenu() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent hover:bg-white/10 text-white">Services</NavigationMenuTrigger>
+              <NavigationMenuTrigger className={`bg-transparent hover:bg-white/10 ${className}`}>Services</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4">
                   <li className="row-span-3">
@@ -74,7 +78,7 @@ export function DropDownMenu() {
             </NavigationMenuItem>
 
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="bg-transparent hover:bg-white/10 text-white">Partners</NavigationMenuTrigger>
+              <NavigationMenuTrigger className={`bg-transparent hover:bg-white/10 ${className}`}>Partners</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4">
                   <li className="row-span-3">
@@ -87,10 +91,10 @@ export function DropDownMenu() {
         </NavigationMenu>
 
         <div className="ml-auto flex items-center space-x-4">
-          <Button variant="ghost" size="icon" className="text-white hover:bg-white/10">
+          <Button variant="ghost" size="icon" className=" hover:bg-white/10">
             <Search className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="icon" className="text-white hover:bg-white/10">
+          <Button variant="ghost" size="icon" className=" hover:bg-white/10">
             <Globe className="h-5 w-5" />
           </Button>
         </div>
